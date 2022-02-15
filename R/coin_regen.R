@@ -174,6 +174,7 @@ regen <- function(COINold, quietly = FALSE){
                              dset = COINold$Method$aggregate$dset,
                              agtype_bylevel = COINold$Method$aggregate$agtype_bylevel,
                              agfunc = COINold$Method$aggregate$agfunc,
+                             avail_limit = COINold$Method$aggregate$avail_limit,
                              out2 = "COIN") %>% suppressMessages()
 
         # optional custom operation
@@ -330,6 +331,7 @@ regen <- function(COINold, quietly = FALSE){
                              dset = COINold$Method$aggregate$dset,
                              agtype_bylevel = COINold$Method$aggregate$agtype_bylevel,
                              agfunc = COINold$Method$aggregate$agfunc,
+                             avail_limit = COINold$Method$aggregate$avail_limit,
                              out2 = "COIN")
 
         # optional custom operation
